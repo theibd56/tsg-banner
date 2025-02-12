@@ -1,8 +1,8 @@
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 0px) and (max-width: 992px) {
   .header-phone {
-    padding: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 40px;
+    padding: 0.83vw;
+    border: 0.1vw solid rgba(255, 255, 255, 0.2);
+    border-radius: 4.2vw;
     &__text {
       display: none;
     }
