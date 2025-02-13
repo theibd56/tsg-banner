@@ -91,7 +91,8 @@ select {
 }
 
 main {
-  overflow: hidden;
+  min-height: 100vh;
+  height: 100vh;
 }
 
 .container {
@@ -141,6 +142,17 @@ p {
   font-style: normal;
   margin-bottom: 10px;
 }
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  .container {
+    max-width: 100%;
+    padding: 0 4.4vw;
+  }
+  main {
+    height: 100%;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   h1 {

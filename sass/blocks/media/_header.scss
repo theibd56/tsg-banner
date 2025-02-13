@@ -1,8 +1,26 @@
 @media screen and (min-width: 0px) and (max-width: 992px) {
+  .header-logo {
+    width: 44.72vw;
+    height: 4.44vw;
+  }
+  .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 8.33vw 0;
+  }
+
   .header-phone {
+    width: 5.4vw;
+    height: 5.4vw;
     padding: 0.83vw;
     border: 0.1vw solid rgba(255, 255, 255, 0.2);
     border-radius: 4.2vw;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
     &__text {
       display: none;
     }
